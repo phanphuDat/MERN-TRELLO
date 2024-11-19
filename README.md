@@ -1,8 +1,6 @@
-# React + Vite
+# Lỗi "Couldn't find package "@rollup/rollup-freebsd-arm64@4.24.1" required by "rollup@^4.20.0" on the "npm" registry."
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fix : Vào files package.json thêm 
+     "resolutions": {
+    "rollup": "4.24.0"
+  },
